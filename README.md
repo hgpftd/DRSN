@@ -1,7 +1,7 @@
 # DRSN
 Official implementation of "Dynamic Recurrent Self-refinement Network for Hyperspectral Remote Sensing Image Super-Resolution"
 
-### Dependencies and Installation
+## Dependencies and Installation
 ```
 git clone https://github.com/hgpftd/DRSN.git
 cd DRSN
@@ -21,7 +21,7 @@ We employ three benchmark hyperspectral image datasets in our experiments: Houst
 3,[Pavia centre](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)  
 
 
-### Testing
+## Testing
 You can use the following command for testing.
 ```
 python test.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8 --model_name ./weight/Houston_8_epoch_300.pth
