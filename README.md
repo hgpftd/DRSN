@@ -21,6 +21,13 @@ We employ three benchmark hyperspectral image datasets in our experiments: Houst
 3,[Pavia centre](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)  
 
 
+### Testing
+You can use the following command for testing.
+```
+python test.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8 --model_name ./weight/Houston_8_epoch_300.pth
+```
+
+
 ### Acknowledgement
 We thank everyone who makes their code and models available, especially [MCNet](https://github.com/qianngli/MCNet), [GELIN](https://github.com/HuQ1an/GELIN_TGRS) and [RFSR](https://github.com/wxywhu/RFSR_TGRS). Thanks for their awesome works.
 
