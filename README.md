@@ -17,3 +17,8 @@ pip install -r requirements.txt
 1,[Houston](https://naotoyokoya.com/Download.html)    
 2,[Chikusei](https://naotoyokoya.com/Download.html)   
 3,[Pavia centre](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)  
+
+
+### Acknowledgement
+We thank everyone who makes their code and models available, especially [MCNet](https://github.com/qianngli/MCNet), [GELIN](https://github.com/HuQ1an/GELIN_TGRS) and [RFSR](https://github.com/wxywhu/RFSR_TGRS). Thanks for their awesome works.
+
