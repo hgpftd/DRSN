@@ -21,11 +21,15 @@ We employ three benchmark hyperspectral image datasets in our experiments: Houst
 3,[Pavia centre](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)  
 
 
-## Testing
-You can use the following command for testing.
+## Usage
+### Testing
+You can use the following command for testing, e.g., for 8× SR on the Houston dataset:
 ```
 python test.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8 --model_name ./weight/Houston_8_epoch_300.pth
 ```
+
+### Training
+For training, you can use the framework of [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
 
 
 ### Acknowledgement
