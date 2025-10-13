@@ -15,6 +15,7 @@ pip install -r requirements.txt
 
 ## Preparations of dataset
 We employ three benchmark hyperspectral image datasets in our experiments: Houston, Chikusei, and Pavia Centre. All datasets can be downloaded from their official websites listed below:
+
 1,[Houston](https://naotoyokoya.com/Download.html)    
 2,[Chikusei](https://naotoyokoya.com/Download.html)   
 3,[Pavia centre](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)  
