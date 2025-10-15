@@ -33,7 +33,7 @@ You can use the following command for training, e.g., for 8× SR on the Houston 
 ```
 python train.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8
 ```
-%You can also use the framework of [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
+You can also use the framework of [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
 
 ## Results
 ### Visual comparisons 
