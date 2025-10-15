@@ -37,13 +37,13 @@ You can also use the framework of other HSISR methods, e.g., [MCNet](https://git
 
 ## Results
 ### Visual comparisons 
-<img src="assets/Visualization_Houston.jpg" width="800px"/>
+<img src="assets/Visualization_Houston.png" width="800px"/>
 
-<img src="assets/Visualization_Pavia.jpg" width="800px"/>
+<img src="assets/Visualization_Pavia.png" width="800px"/>
 
 ### Quantitative comparison
 
-<img src="assets/Quantitative_Houston.jpg" width="800px"/>
+<img src="assets/Quantitative_Houston.png" width="800px"/>
 
 
 ## Acknowledgement
