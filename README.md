@@ -29,9 +29,17 @@ python test.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8 --mo
 ```
 
 ### Training
-For training, you can use the framework of [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
+You can use the following command for training, e.g., for 8× SR on the Houston dataset:
+```
+python train.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8
+```
+%You can also use the framework of [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
 
+## Results
+### Visual comparisons 
 
-### Acknowledgement
+### Quantitative comparison
+
+## Acknowledgement
 We thank everyone who makes their code and models available, especially [MCNet](https://github.com/qianngli/MCNet), [GELIN](https://github.com/HuQ1an/GELIN_TGRS) and [RFSR](https://github.com/wxywhu/RFSR_TGRS). Thanks for their awesome works.
 
