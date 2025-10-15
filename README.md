@@ -37,8 +37,14 @@ You can also use the framework of [MCNet](https://github.com/qianngli/MCNet) and
 
 ## Results
 ### Visual comparisons 
+<img src="assets/Visualization_Houston.jpg" width="800px"/>
+
+<img src="assets/Visualization_Pavia.jpg" width="800px"/>
 
 ### Quantitative comparison
+
+<img src="assets/Quantitative_Houston.jpg" width="800px"/>
+
 
 ## Acknowledgement
 We thank everyone who makes their code and models available, especially [MCNet](https://github.com/qianngli/MCNet), [GELIN](https://github.com/HuQ1an/GELIN_TGRS) and [RFSR](https://github.com/wxywhu/RFSR_TGRS). Thanks for their awesome works.
