@@ -31,9 +31,9 @@ python test.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8 --mo
 ### Training
 You can use the following command for training, e.g., for 8× SR on the Houston dataset:
 ```
-python train.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=22024 --use_env train.py --cuda --datasetName Houston --n_bands 48 --upscale_factor 8
 ```
-You can also use the framework of [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
+You can also use the framework of other HSISR methods, e.g., [MCNet](https://github.com/qianngli/MCNet) and [SSPSR](https://github.com/junjun-jiang/SSPSR).
 
 ## Results
 ### Visual comparisons 
